@@ -12,38 +12,46 @@ header{
 div {
     margin-left: 10vh;
     text-align: left;
-} 
+    line-height: 1;
+}
 h1 {
     font-family:'MuseoModerno', cursive;
     font-size: 117px;
     color: #0a2ff1;
-    display: inline-block;
-    
+    margin-block-start: 20vh;
+    margin-block-end: 0;
     
 }
 h3 {
     font-family: 'Asap', sans-serif;
     font-size: 52px;
     color: #0a2ff1;
+    margin-block-start: 0;
+    margin-block-end: 20vh;
+    
     }
 p {
     font-family: 'Asap', sans-serif;
     font-size: 33px; 
     color: #04146c;
-    width: 58%;
+    width: 90%;
 }
 h2 {
     font-family:'MuseoModerno', cursive;
     font-size: 48px; 
     color: #0a2ff1;
+    margin-block-start: 20vh;
 }
 li {
     font-family:'Asap', sans-serif;
     font-size: 33px; 
     color: #04146c;
+    margin: 20px 0;
 }
 .end{
     font-family: 'MuseoModerno', cursive;
     font-size: 198px; 
-    color: #8a9af1; 
+    color: #8a9af1;
+    width: 80%;
+     
 }
