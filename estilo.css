@@ -5,9 +5,13 @@ body {
     margin: 0;
     width: 80%;
 }
-header{
-    background-color: #000000;
-    color: #FFFFFF;
+header, footer{
+    background-color: #0a2ff1;
+    height: 10vh;
+}
+h3 {
+    background-color: #FFFFFF;
+    color: #0a2ff1;
     height: 30vh;
     font-size: 66px;
     font-family: 'Montserrat black', sans-serif; 
@@ -19,8 +23,8 @@ header{
 }
 
 h1 {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
     height: 90vh;
     font-size: 217px;
     font-family: 'Montserrat black', sans-serif; 
@@ -32,9 +36,9 @@ h1 {
         
 }
 h2 {
-    background-color: #FFFFFF;
-    color: #000000;
-    height: 40vh;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 30vh;
     font-size: 197px;
     font-family: 'Montserrat black', sans-serif;
     margin-block-start: 0;
@@ -45,10 +49,34 @@ h2 {
 }
 p {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #0a2ff1;
+    height: 15vh;
+    font-size: 48px;
+    font-family: 'Montserrat semibold', sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    background-color: #FFFFFF;
+    color: #0a2ff1;
+    height: 15vh;
+    font-size: 48px;
+    font-family: 'Montserrat black', sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.porc{
+    background-color: #000000;
+    color: #FFFFFF;
     height: 15vh;
     font-size: 60px;
-    font-family: 'Montserrat semibold', sans-serif;
+    font-family: 'Montserrat black', sans-serif;
     margin-block-start: 0;
     margin-block-end: 0;
     display:flex;
@@ -67,5 +95,16 @@ p {
     display:flex;
     justify-content: center;
     align-items: center;
-
+}
+h4{
+    background-color: #FFFFFF;
+    color: #0a2ff1;
+    height: 30vh;
+    font-size: 58px;
+    font-family: 'Montserrat semibold', sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
